@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: $dark-grey;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: $m-size;
+  line-height: 1.6;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: default;
+}
+
+.is-active {
+  font-weight: bold;
+}
+
+.DateInput {
+  position: static !important;
+}
+.DateInput_1 {
+  position: static !important;
+}
+
+.CalendarDay__hovered_span:hover,
+.CalendarDay__hovered_span,
+.CalendarDay__selected_span {
+  background: $verylight-red;
+  border: 1px solid #ff7263;
+  color: $dark-red;
+}
+
+.CalendarDay__selected,
+.CalendarDay__selected_span:hover,
+.CalendarDay__selected:hover {
+  background: $light-red;
+  color: #ffffff;
+  border: 1px solid $light-red;
+}
+
+.DayPickerKeyboardShortcuts_show__bottomRight {
+  border-top: 26px solid transparent;
+  border-right: 33px solid $dark-red;
+}
+
+.DateInput_input__focused {
+  border-bottom: 2px solid $dark-red;
+}
+
+.scrollbar {
+  overflow-y: scroll;
+}
+
+// .CalendarDay__selected_span {
+//   background: green;
+// }
+// .CalendarDay__selected:hover {
+//   background: $dark-red;
+//   color: white;
+// }
+
+// .CalendarDay__selected:active {
+//   background: orange;
+// }
+
+// .CalendarDay__highlighted_calendar:hover {
+//   background: $dark-red;
+//   color: $dark-red;
+// }
+
+// .CalendarDay__highlighted_calendar:active {
+//   background: $dark-red;
+//   color: $dark-red;
+// }
